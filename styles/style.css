@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #dddada;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app-container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1, h2{
+    color: green;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#budget-input-form label{
+    display: block;
+    font-weight:bold;
+}
+
+#budget-input-form input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width:100%;
+    box-sizing: border-box;
+}
+
+#add-expense{
+  background-color:green;
+  color: white;
+  display: block;
+  width:100%;
+  padding: 10px;
+  border-radius:none;
+  border:none;
+}
+
+#add-expense:hover{
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+#current-balance-section{
+  margin-top: 30px;
+}
+
+#balance-box{
+  background-color: rgb(219, 219, 219);
+  padding:10px;
+}
+
+#history-table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#history-table th, #history-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#history-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+}
+
+#history-table td:nth-child(1),
+#history-table td:nth-child(2),
+#history-table td:nth-child(3),
+#history-table td:nth-child(4) {
+    text-align: center;
+}
+
+.income {
+    color: green;
+    font-weight: bold;
+}
+
+.expense {
+    color: red;
+    font-weight: bold;
+}
+
+.total-balance-positive {
+    color: green;
+    font-weight: bold;
+}
+
+.total-balance-negative {
+    color: red;
+    font-weight: bold;
+}
