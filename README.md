@@ -33,5 +33,8 @@ A very simple web-based personal budget tracker to track your financial income a
 ## Key JavaScript Concepts
 
 - **Closure**: ID generator that maintains state across function calls
-- **Higher-Order Functions**: `reduce()`, `forEach()`, `filter()` for data processing
+- **Higher-Order Functions**: reduce(), forEach(), filter() for data processing
 - **Immutability**: Uses spread operator to create new arrays instead of mutating existing ones
+
+## Live Demo
+https://sys-thai69.github.io/fullstack-financial-tracker/app.html
